@@ -20,12 +20,13 @@
 	<label for="gender_f">female</label>
 	<input type="radio" name="gender_f"><br>	
 
-	<select aria-required>
-		<option>None</option>
-		<option>Bmw</option>
-		<option>Audi</option>
-		<option>Mercedes</option>
-	</select><br>
+	<label for="cars">Car Brands</label>
+		<select id="cars" name="cars" required>
+			<option value="" disabled selected>None</option>
+			<option value="bmw">Bmw</option>
+			<option value="audi">Audi</option>
+			<option value="mercedes">Mercedes</option>
+		</select><br>
      <label for="age">Age</label>
 	<input type="number " id="age" name="age" placeholder="Age"required ><br>
 	<label for="dob">DOB</label>
